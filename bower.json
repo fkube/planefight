@@ -1,0 +1,23 @@
+{
+    "name": "planefight",
+    "version": "0.1",
+    "main": "src/bootstrap.js",
+    "ignore": [
+        "vendor",
+        "test",
+        "build",
+        ".gitignore",
+        ".gitattributes",
+        ".jshintignore",
+        ".jshintrc"
+    ],
+    "dependencies": {
+        //TODO
+        "underscore-amd": "latest",
+        "es5-shim": "2.3.0"
+    },
+    "devDependencies": {
+        "requirejs": "2.0.11",
+        "text": "2.0.10"
+    }
+}

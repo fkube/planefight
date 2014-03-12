@@ -1,0 +1,38 @@
+{
+    "name": "planefight",
+    "version": "0.1",
+    "description": "...",
+    "keywords": [
+        "dogfight"
+    ],
+
+    "license": "MIT",
+
+    "author" : "Sergey Bondar <msnre@ya.ru>",
+    "contributors" : [],
+
+    "repository" : {
+        "type": "git",
+        "url": "git://github.com/documentcloud/underscore.git"
+    },
+
+    "main": "src/bootstrap.js",
+
+    "engines": {
+        "node": ">=0.6"
+    },
+
+    "dependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-jshint": "~0.6.3",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt-contrib-uglify": "~0.2.2"
+    },
+
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-jshint": "~0.6.3",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt-contrib-uglify": "~0.2.2"
+    }
+}
