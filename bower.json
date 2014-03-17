@@ -1,5 +1,6 @@
 {
     "name": "planefight",
+    "version": "0.0.1",
     "authors": [
         "Sergey Bondar"
     ],
@@ -9,24 +10,32 @@
         "triplane",
         "dogfight"
     ],
-    "version": "0.1",
+
+    "private": true,
+
     "main": "src/bootstrap.js",
     "ignore": [
+        "node_modules",
         "vendor",
         "test",
         "build",
         ".gitignore",
-        ".gitattributes",
-        ".jshintignore",
-        ".jshintrc"
+        ".gitattributes"
     ],
     "dependencies": {
-        //TODO
-        "underscore-amd": "latest",
-        "es5-shim": "2.3.0"
+        "melonJS": "0.9.11",
+
+        "physicsjs": "~0.5",
+        "matter-js": "~0.5",
+        "newton": "0.0.5",
+        "vec2d": "1.1.0",
+
+        "jstorage": "0.4.8",
+        "es5-shim": "2.3.0",
+        "json2": "*"
     },
     "devDependencies": {
-        "requirejs": "2.0.11",
+        "requirejs": "~2.1",
         "text": "2.0.10"
     }
 }

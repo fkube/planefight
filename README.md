@@ -5,30 +5,41 @@
 node.js+npm
 -----------
 
-Зависимости package.json
+Установить nodejs + npm.
 
-TODO bower/...?
+Установить nodejs-зависимости.
 
-grunt
------
-
-Таскраннер/Сборщик Grundfile.js
-
-TODO plans?
+    npm install
 
 bower
 -----
 
-Зависимости библиотек bower.json
+Установить bower глобально.
 
-TODO planefight-mech, planefight-ai сделать зависимостями
+    npm install -g bower
+
+
+https://github.com/serheyShmyg/requirejs-jquery-backbone
+
+grunt
+-----
+
+Установить grunt глобально.
+
+    npm install -g grunt-cli
+
+grunt-spritesmith требует python?
 
 jshint
 ------
 
-Код стайл .jshintrc
+Код стайл .jshintrc - включить в IDE
 
-https://github.com/serheyShmyg/requirejs-jquery-backbone
+jscs
+----
+
+
+
 
 
 imagesmin - minified all images;
