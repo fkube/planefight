@@ -3,7 +3,9 @@
     "maxerr": 100,    // Maximum error before stopping.
 
     "globals": {
-        "MY_GLOBAL": false
+        "define": false,
+        "require": false,
+        "console": false
     },
 
     "debug": false,
@@ -43,6 +45,7 @@
     "supernew": false,  // Tolerate `new function () { ... };` and `new Object;`.
     "onecase": false, // do not use switch, if an if-block will be better
 
+    "unused": true,  //
     "undef": true,   // Require all non-global variables be declared before they are used.
     "funcscope": false, // never declare variables in blocks othen than functions
     "shadow": false,  // Allows re-define variables later in code e.g. `var x=1; x=2;`.
