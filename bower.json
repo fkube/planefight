@@ -1,5 +1,14 @@
 {
     "name": "planefight",
+    "authors": [
+        "Sergey Bondar"
+    ],
+    "description": "Triplane dog fight.",
+    "keywords": [
+        "game",
+        "triplane",
+        "dogfight"
+    ],
     "version": "0.1",
     "main": "src/bootstrap.js",
     "ignore": [

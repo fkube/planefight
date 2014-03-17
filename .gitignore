@@ -1,6 +1,8 @@
 .idea
 vendor/
 
+*.log
+
 .buildpath
 .project
 .metadata
@@ -12,10 +14,9 @@ tmp/
 *~.nib
 *~
 *#
-*.log
 local.properties
 .classpath
-.settings/
+.settings
 .loadpath
 
 # TeamCity is a build add-in
